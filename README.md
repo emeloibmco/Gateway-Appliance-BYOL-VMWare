@@ -6,14 +6,8 @@
 ### Indice
 1. [Despliegue en OpenShift desde IBM Cloud shell](#Despliegue-en-OpenShift-desde-IBM-Cloud-shell-)
 2. [Despliegue Aplicación Hello World en Angular](#despliegue-aplicación-hello-world-en-angular-🅰️)
-3. [Despliegue Aplicación Listas en Angular](#despliegue-aplicación-listas-en-angular-🅰️)
-4. [Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift ](#Despliegue-Aplicación-Hello-World-en-Nodejs-Desde-la-consola-web-de-OpenShift-)
-5. [Despliegue de una imagen Docker en un contenedor de Opeshift](#Despliegue-de-una-imagen-Docker-en-un-contenedor-de-Opeshift-)
-6. [Despliegue Aplicación CRUD en Angular](#Despliegue-Aplicación-CRUD-en-Angular-)
-7. [Instalación y despliegue de Eclipce Che con un operador](#Instalación-y-despliegue-de-Eclipce-Che-con-un-operador-)
-8. [Anexos](#ANEXOS)
 9. [Pre-requisitos](#Pre-requisitos-)
-10. [Referencias](#Referencias)
+
 
 _Para el desarrollo de este proyecto se tiene como base una máquina con sistema operativo basado en Windows desde la cual se va a realizar toda la conexión, configuración y montaje de la imagen en el servidor remoto._
 
