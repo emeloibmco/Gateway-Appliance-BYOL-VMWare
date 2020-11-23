@@ -75,7 +75,7 @@ https://cloud.ibm.com/docs/gateway-appliance?topic=gateway-appliance-order-byoa
 ### Paso 2 
 
 
-_Para Subir el .iso al Gateway Appliance, debemos seguir los siguientes pasos:_
+_Para poder acceder a la plataforma de configuracion y administración del Gateway Appliance, debemos seguir los siguientes pasos:_
 
 _•	Ingresar a la plataforma de IBM cloud con sus credenciales de inicio de sesión, lo puede hacer desde el siguiente link:_
 
@@ -114,29 +114,37 @@ _• Para poder ingresar a la plataforma de supermicro (Plataforma de acceso y c
   
 </p>
 
-### Haga 'login' en el cluster de Open Shift (ROKS) desde la linea de comando 📦
+_Al ingresar las credenciales nos redireccionara a la ventana inicial de supermicro, y desde aquí podremos tener un escritorio remoto al servidor. Pero también nos da una opción para subir una nueva imagen .iso._
 
-_•	Ahora en la parte superior derecha se da clic sobre el ID del correo con el que ingresamos y luego en la sección que dice Copy Login Command._
+### Paso 3
+
+_Para subir la imagen .iso al Gateway Appliance, debemos seguir los siguientes pasos:_
+
+_• Al ingresar ala plataforma de supermicro, debe dar click en **Remote control** y luego en **Console Redirection.**_
 
 <p align="center">
-<img width="144" alt="1" src="https://user-images.githubusercontent.com/60987042/76917049-53479180-6890-11ea-91a1-b2c2c9213729.PNG">
+<img width="667" alt="Supermicro" src="https://user-images.githubusercontent.com/60987042/100012996-26923500-2da2-11eb-8115-2d1efdec305e.PNG">    
 </p>
-_•	Y por último volvemos a la terminal que se estaba utilizando pegamos y damos enter._
 
-### Cree un nuevo proyecto en Open Shift para desplegar las aplicaciones 📦
+_• Al terminar el paso anterior se nos descargará a nuestro ordenador un archivo con extensión **.jnlp** el cual abriremos con plugin Ice-tea que instalamos previamente._
 
-_2.	Cree un nuevo proyecto en el cluster de la siguiente manera:_
-```
-oc new-project <projectname>
-```
-_**Nota:** Para el **projectname** coloque **openshift + las iniciales de su nombre y apellido.**_
+_• Al abrir el archivo con extencion **.jnlp** se nos abre una nueva ventana en la cual podemos ver como escritorio remoto nuestro servidor, pero también podremos cargar un nuevo .iso para iniciarlo desde el Boot de la máquina e instalarlo._
 
-_3.	Acceda al proyecto que acabo de crear de la siguiente manera:_
+_• En esta nueva ventana debemos dar click en la pestaña **Virtual media** y luego en la que dice **Virtual storage.**_
 
-```
-oc project <projectname>
-```
+<p align="center">
+<img width="660" alt="VirtualStorage" src="https://user-images.githubusercontent.com/60987042/100013438-d2d41b80-2da2-11eb-88a8-9cb09b4b1f96.PNG">  
+</p>
 
+_• Al terminar el paso anterior se nos abre la ventana que vemos a continuación y aquí es donde podremos subir nuestro .iso que tenemos guardado en el pc local. _
+
+<p align="center">
+<img width="445" alt="Subir_iso" src="https://user-images.githubusercontent.com/60987042/100013468-dd8eb080-2da2-11eb-8eec-0b5cf7578839.PNG">  
+</p>
+
+_• Cuando se selecciona el .iso debemos dar click en Plug in para subirla la imagen y lo último que tenemos que hacer es ingresar a nuestra máquina virtual desde un escritorio remoto e iniciar la maquina desde el Boot con la imagen que acabamos de subir y seguir todas las instrucciones de instalación._
+
+**NOTA: Finalmente se accede al boot de la máquina donde selecciona el .iso de arranque para la máquina**
 
 
 
