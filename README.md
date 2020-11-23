@@ -75,9 +75,7 @@ https://cloud.ibm.com/docs/gateway-appliance?topic=gateway-appliance-order-byoa
 ### Paso 2 
 
 
-_1.	Inicie sesión e ingrese desde la CLI de OpenShift al clúster en el que se va a trabajar._
-
-_Para ingresar al clúster que tengamos aprovisionado en nuestra cuenta de IBM Cloud se deben realizar los siguientes pasos:_
+_Para Subir el .iso al Gateway Appliance, debemos seguir los siguientes pasos:_
 
 _•	Ingresar a la plataforma de IBM cloud con sus credenciales de inicio de sesión, lo puede hacer desde el siguiente link:_
 
@@ -85,16 +83,36 @@ _•	Ingresar a la plataforma de IBM cloud con sus credenciales de inicio de ses
 https://cloud.ibm.com/
 ```
 
-_•	Diríjase al resource list._
-_Primero debe dar clic en el navigation menu y luego donde dice Resource list, como se puede ver en la siguiente imagen:_
+_•	Diríjase a la sección de **Classic infrastructure.**_
 
 <p align="center">
-<img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
+  
 </p>
 
-_•	Diríjase a la sección de clústers y dar clic en el que se desea acceder._
+_• Ingrese a la sección de **Network** y luego en la sección de **Gateway Appliance.**_
 
-_•	Se da clic en el botón OpenShift web console._
+<p align="center">
+  
+</p>
+
+_• De click sobre el **nombre de la máquina** y en la sección **hardware** vuelva a dar click sobre el **nombre de la máquina.**_
+
+<p align="center">
+  
+</p>
+
+_• En la sección de **Actions** abrimos la que dice **KVM Console*_
+
+<p align="center">
+  
+</p>
+_Al dar clic en esta sección, nos redireccionará a una pestaña de configuración del servidor virtual._
+
+_• Para poder ingresar a la plataforma de supermicro (Plataforma de acceso y configuración de la máquina) debemos tener en cuenta las credenciales de ingreso que podrá encontrar en **Remote Manage.**_
+
+<p align="center">
+  
+</p>
 
 ### Haga 'login' en el cluster de Open Shift (ROKS) desde la linea de comando 📦
 
