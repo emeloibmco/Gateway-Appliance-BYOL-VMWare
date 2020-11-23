@@ -48,9 +48,8 @@ https://icetea.uptodown.com/windows/descargar
 
 _Lo primero que debemos realizar es la conexión con el motion pro a la vpn, para esto, ingrese a motion pro y añada una nueva conexión._
 
-<p align="center">
 ![MotionPro](https://user-images.githubusercontent.com/60987042/100010625-871f7300-2d9e-11eb-985a-8c274877d2cb.png)
-</p>
+
 
 **Site Name:** Dirección IP privada de la máquina.
 **Host:** VPN según la región que se encuentre su máquina. Por ejemplo, para la región de dallas: vpn.dal.softlayer.com
