@@ -102,7 +102,7 @@ _• En la sección de **Actions** abrimos la que dice **KVM Console*_
 </p>
 _Al dar clic en esta sección, nos redireccionará a una pestaña de configuración del servidor virtual._
 
-_• Para poder ingresar a la plataforma de supermicro (Plataforma de acceso y configuración de la máquina) debemos tener en cuenta las credenciales de ingreso que podrá encontrar en **Remote Manage.**_
+_• Para poder ingresar a la plataforma de supermicro (Plataforma de acceso y configuración de la máquina) debemos tener en cuenta las credenciales de ingreso que podrá encontrar en **Remote Management.**_
 
 <p align="center">
   
