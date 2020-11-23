@@ -53,12 +53,15 @@ _Lo primero que debemos realizar es la conexión con el motion pro a la vpn, par
 </p>
 
 _**Site Name:** Dirección IP privada de la máquina._
+
 _**Host:** VPN según la región que se encuentre su máquina. Por ejemplo, para la región de dallas: vpn.dal.softlayer.com_
+
 _**Username:** Número de la cuenta seguido de un guión bajo y el correo asociado a la cuenta. Por ejemplo: 1234567_usuario@ibm.com_
+
 _**Password:** Habilite la opción Save Password. Para crear esta contraseña ingrese en cloud.ibm.com, acceda a su cuenta, diríjase a la pestaña **Manage**, luego a **Access (IAM)**, luego en el menú izquierdo diríjase a **Users**, de click sobre su correo electronico y busque el campo **VPN Password**, modifíquelo y luego ingrese este valor en motion pro._
 
 <p align="center">
-<img width="485" alt="ContraseñaVPN" src="https://user-images.githubusercontent.com/60987042/100011189-60157100-2d9f-11eb-89fa-4db347c37d38.png">
+<img width="500" alt="ContraseñaVPN" src="https://user-images.githubusercontent.com/60987042/100011189-60157100-2d9f-11eb-89fa-4db347c37d38.png">
 </p>
 
 _Despues de tener conectada la VPN mediante la herramienta de motion pro, debemos proseguir con la instalación y la adecuación de la maquina._
