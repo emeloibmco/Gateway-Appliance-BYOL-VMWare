@@ -48,16 +48,17 @@ https://icetea.uptodown.com/windows/descargar
 
 _Lo primero que debemos realizar es la conexión con el motion pro a la vpn, para esto, ingrese a motion pro y añada una nueva conexión._
 
-![MotionPro](https://user-images.githubusercontent.com/60987042/100010625-871f7300-2d9e-11eb-985a-8c274877d2cb.png)
+<p align="center">
+<img width="335" alt="MotionPro" src="https://user-images.githubusercontent.com/60987042/100011136-4bd17400-2d9f-11eb-86ad-837f845fd15e.png">
+</p>
 
-
-**Site Name:** Dirección IP privada de la máquina.
-**Host:** VPN según la región que se encuentre su máquina. Por ejemplo, para la región de dallas: vpn.dal.softlayer.com
-**Username:** Número de la cuenta seguido de un guión bajo y el correo asociado a la cuenta. Por ejemplo: 1234567_usuario@ibm.com
-**Password:** Habilite la opción Save Password. Para crear esta contraseña ingrese en cloud.ibm.com, acceda a su cuenta, diríjase a la pestaña **Manage**, luego a **Access (IAM)**, luego en el menú izquierdo diríjase a **Users**, de click sobre su correo electronico y busque el campo **VPN Password**, modifíquelo y luego ingrese este valor en motion pro.
+_**Site Name:** Dirección IP privada de la máquina._
+_**Host:** VPN según la región que se encuentre su máquina. Por ejemplo, para la región de dallas: vpn.dal.softlayer.com_
+_**Username:** Número de la cuenta seguido de un guión bajo y el correo asociado a la cuenta. Por ejemplo: 1234567_usuario@ibm.com_
+_**Password:** Habilite la opción Save Password. Para crear esta contraseña ingrese en cloud.ibm.com, acceda a su cuenta, diríjase a la pestaña **Manage**, luego a **Access (IAM)**, luego en el menú izquierdo diríjase a **Users**, de click sobre su correo electronico y busque el campo **VPN Password**, modifíquelo y luego ingrese este valor en motion pro._
 
 <p align="center">
-![ContraseñaVPN](https://user-images.githubusercontent.com/60987042/100010651-92729e80-2d9e-11eb-9a3d-dde5c3b951c5.png)
+<img width="485" alt="ContraseñaVPN" src="https://user-images.githubusercontent.com/60987042/100011189-60157100-2d9f-11eb-89fa-4db347c37d38.png">
 </p>
 
 _Despues de tener conectada la VPN mediante la herramienta de motion pro, debemos proseguir con la instalación y la adecuación de la maquina._
