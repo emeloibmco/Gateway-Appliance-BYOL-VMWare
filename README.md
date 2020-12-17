@@ -3,11 +3,6 @@
 
 # GUIA DE INSTALACIÓN DE SISTEMA OPERATIVO EN GATEWAY APPLIANCE
 
-### Indice
-1. [Despliegue en OpenShift desde IBM Cloud shell](#Despliegue-en-OpenShift-desde-IBM-Cloud-shell-)
-2. [Despliegue Aplicación Hello World en Angular](#despliegue-aplicación-hello-world-en-angular-🅰️)
-9. [Pre-requisitos](#Pre-requisitos-)
-
 
 _Para el desarrollo de este proyecto se tiene como base una máquina con sistema operativo basado en Windows desde la cual se va a realizar toda la conexión, configuración y montaje de la imagen en el servidor remoto._
 
@@ -144,13 +139,7 @@ _• Cuando se selecciona el .iso debemos dar click en Plug in para subirla la i
 
 ## Referencias
 
-La documentación en linea de IBM Cloud Red Hat OpenShift Managed, se encuentra en el siguiente enlace:
 
-https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started
-
-En la siguiente página se encuentra la información de administración y configuración de Open Shift 3.11.
-
-https://access.redhat.com/documentation/en-us/openshift_container_platform/3.11/
 
 ## Autores ✒️
 
