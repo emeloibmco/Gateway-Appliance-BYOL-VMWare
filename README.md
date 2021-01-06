@@ -1,8 +1,7 @@
 # Gateway-Appliance-BYOL-VMWare
 
 
-# GUIA DE INSTALACIÓN DE SISTEMA OPERATIVO EN GATEWAY APPLIANCE
-
+# GUIA DE INSTALACIÓN DE CLOUDGUARD DENTRO DE UN GATEWAY APPLIANCE
 
 _Para el desarrollo de este proyecto se tiene como base una máquina con sistema operativo basado en Windows desde la cual se va a realizar toda la conexión, configuración y montaje de la imagen en el servidor remoto._
 
@@ -31,7 +30,7 @@ _Para acceder al escritorio remoto del servidor se genera un archivo .jnlp el cu
 https://icetea.uptodown.com/windows/descargar
 ```
 
-## MONTAJE DE LA IMAGEN .ISO AL GATEWAY APPLIANCE: 🚀
+## MONTAJE DE LA IMAGEN .ISO DE VMWARE ESXI AL GATEWAY APPLIANCE: 🚀
 
 ### Paso 1
 
@@ -285,11 +284,121 @@ _Como paso final, nos va a salir la IP en la que quedo configurado el panel de a
 
 ### Paso 1
 
-__
+_Para iniciar con la configuración del CloudGuard, debemos ingresar a la IP que definimos para la administración desde un Browser:_
 
-## Referencias
+<p align="center">
+<img width="523" alt="c1" src="https://user-images.githubusercontent.com/60987042/103823026-3a86b300-503f-11eb-8541-17cc13281e71.PNG">
+</p>
 
+### Paso 2
 
+_Al acceder con nuestras credenciales, nos va a aparecer un menu de configuración en el que inicialmente se debe dar clic en next:_
+
+<p align="center">
+<img width="524" alt="c2" src="https://user-images.githubusercontent.com/60987042/103823245-b3860a80-503f-11eb-8c10-79991036bbe8.PNG">
+</p>
+
+### Paso 3
+
+_Ahora, es necesario dar clic en continuar con la configuración del R80.10 (CloudGuard):_
+
+<p align="center">
+<img width="262" alt="c3" src="https://user-images.githubusercontent.com/60987042/103823618-6d7d7680-5040-11eb-910a-56fa2bea8159.PNG">
+</p>
+
+### Paso 4
+
+_En Management Connection, dejamos la configuración que esta por default:_
+
+<p align="center">
+<img width="261" alt="c4" src="https://user-images.githubusercontent.com/60987042/103823809-cb11c300-5040-11eb-90c7-a3c0924495ca.PNG">
+</p>
+
+### Paso 5
+
+_En device Information, cambiamos solamente el nombre que queremos que tenga la maquina de CloudGuard:_
+
+<p align="center">
+<img width="260" alt="c5" src="https://user-images.githubusercontent.com/60987042/103824195-6d31ab00-5041-11eb-9f28-b0404aa7627b.PNG">
+</p>
+
+### Paso 6
+
+_En Data and Time settings, cambiamos si lo queremos la zona horaria que queremos que tenga la maquina de CloudGuard:_
+
+<p align="center">
+<img width="261" alt="c6" src="https://user-images.githubusercontent.com/60987042/103824408-d44f5f80-5041-11eb-8ab5-e1fd0b691655.PNG">
+</p>
+
+### Paso 7
+
+_En installation type, selecionamos la primera opción:_
+
+<p align="center">
+<img width="262" alt="c7" src="https://user-images.githubusercontent.com/60987042/103824832-ad455d80-5042-11eb-9712-9a75f1c68616.PNG">
+</p>
+
+### Paso 8
+
+_En products, selecionamos Security gateway y tambien security management:_
+
+<p align="center">
+<img width="263" alt="c8" src="https://user-images.githubusercontent.com/60987042/103824897-cfd77680-5042-11eb-9238-11152f7e90bd.PNG">
+</p>
+
+### Paso 9
+
+_En Security mamagement, permitimos todas las IP:_
+
+<p align="center">
+<img width="261" alt="c9" src="https://user-images.githubusercontent.com/60987042/103824904-d239d080-5042-11eb-82a8-6efce256e5d5.PNG">
+</p>
+
+### Paso 10
+
+_Para finalizar con el proceso de configuración damos clic en Finish:_
+
+<p align="center">
+<img width="262" alt="c10" src="https://user-images.githubusercontent.com/60987042/103824906-d534c100-5042-11eb-9d24-3186afa42d49.PNG">
+</p>
+
+### Paso 11
+
+_Ahora, se nos pide autorización para aplicar las configuraciones que acabamos de realizar:_
+
+<p align="center">
+<img width="264" alt="c11" src="https://user-images.githubusercontent.com/60987042/103824912-d7971b00-5042-11eb-99c7-e0110f10ef4c.PNG">
+</p>
+
+### Paso 12
+
+_Se iniciaran a aplicar las configuraciones y nos aparacera un porcentaje que lo indica:_
+
+<p align="center">
+<img width="261" alt="c12" src="https://user-images.githubusercontent.com/60987042/103824916-d9f97500-5042-11eb-8766-b423b48ae1cc.PNG">
+</p>
+
+### Paso 13
+
+_Por ultimo nos va a pedir reiniciar la maquina para terminar el proceso:_
+
+<p align="center">
+<img width="294" alt="c13" src="https://user-images.githubusercontent.com/60987042/103824928-dc5bcf00-5042-11eb-9959-c715e3416c99.PNG">
+</p>
+
+## Acceso al panel de administración CloudGuard: 🚀
+
+_Cuando la maquina se reinicie por completo nos debe aparecer nuevamente la panatalla principal y nos pedira realizar el login:_
+
+<p align="center">
+<img width="524" alt="ac1" src="https://user-images.githubusercontent.com/60987042/103826445-da930b00-5044-11eb-90b6-d4f653de9c00.PNG">
+</p>
+
+_Al acceder con nuestras credenciales de acceso, nos va a aparecer el panel de administración del CloudGuard:_
+
+<p align="center">
+<img width="592" alt="ac2" src="https://user-images.githubusercontent.com/60987042/103826453-dc5cce80-5044-11eb-8d28-3172b305b244.PNG">
+</p>
 
 ## Autores ✒️
 
