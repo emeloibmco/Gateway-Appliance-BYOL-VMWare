@@ -136,6 +136,72 @@ _• Cuando se selecciona el .iso debemos dar click en Plug in para subirla la i
 **NOTA: Finalmente se accede al boot de la máquina donde selecciona el .iso de arranque para la máquina**
 
 
+## Instalación de CloudGuard dentro del VMWare ESXi: 🚀
+
+### Paso 1
+_Descargar el .iso de CloudGuard desde el siguiente link:_
+
+```
+https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk111841&partition=Basic&product=All
+```
+### Paso 2
+_Crear un **Virtual Switch** dentro de MVware ESXi con las siguentes caracteristicas:_
+
+<p align="center">
+<img width="559" alt="vs" src="https://user-images.githubusercontent.com/60987042/103815974-33a57380-5032-11eb-9fbc-6a59275a1f22.PNG">
+</p>
+
+### Paso 3
+_Crear un **Port Group** dentro de MVware ESXi con las siguentes caracteristicas:_
+
+<p align="center">
+<img width="521" alt="pg" src="https://user-images.githubusercontent.com/60987042/103816523-1ae98d80-5033-11eb-9e51-c7ae690e4181.PNG">
+</p>
+
+### Paso 4
+_Crear una maquina virtual con la imagen .iso que descargamos en el paso 1, teniendo especial cuidado en la configuración:_
+
+_**Para:**_
+
+_**1. Select Creation Type**, se debe seleccionar la primera opción (Create a new virtual machine):_
+
+<p align="center">
+<img width="519" alt="p1" src="https://user-images.githubusercontent.com/60987042/103817008-e6c29c80-5033-11eb-897e-2dc43dc20a75.PNG">
+</p>
+
+
+_**2. Select a name and guest OS**, se debe seleccionar las siguentes opciones:_
+
+<p align="center">
+<img width="521" alt="p2" src="https://user-images.githubusercontent.com/60987042/103817442-b3ccd880-5034-11eb-95ce-2d8cefad18c5.PNG">
+</p>
+
+_**3. Select Storage**, es necesario seleccionar el Storage disponible para la instalación despues dar clic en Next:_
+
+<p align="center">
+<img width="522" alt="p3" src="https://user-images.githubusercontent.com/60987042/103817641-0e663480-5035-11eb-87fd-dbacfd22a0e0.PNG">
+</p>
+
+
+_**4. Customize Settings**, se debe seleccionar las siguentes opciones:_
+
+_**CPU** = 2_
+
+_**Hard Disk 1** = 50Gb_
+
+_**Network Adapter 1** = Se debe seleccionar el que creamos mediante el **Port Group** con el nombre de publico_
+
+_**CD/DVD Drive 1** = inicialmente se debe seleccionar la opción ""DataStore iso file"" y despues seleccionar la imagen .iso o subirla para poder elegirla._
+
+<p align="center">
+<img width="522" alt="p4" src="https://user-images.githubusercontent.com/60987042/103818383-70736980-5036-11eb-802d-9ef32e60718c.PNG">
+</p>
+
+_**5. Ready to Complete**, es el paso final para la creación de la maquina virtual y debemos dar clic en **Finish**._
+
+<p align="center">
+<img width="524" alt="p5" src="https://user-images.githubusercontent.com/60987042/103818569-ca742f00-5036-11eb-9ad3-5608345e1e4b.PNG">
+</p>
 
 ## Referencias
 
