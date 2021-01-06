@@ -223,6 +223,56 @@ _Al acceder a la maquina virtual, debe aparecer el menu de instalación de Cloud
 
 ### Paso 2
 
+_Cuando inicia el proceso de instalación, se van a mostrar un primer menú en el cual debemos seleccionar **OK**:_
+
+<p align="center">
+<img width="520" alt="i1" src="https://user-images.githubusercontent.com/60987042/103821071-7a4b9b80-503b-11eb-8c1c-ea931823a5df.PNG">
+</p>
+
+### Paso 3
+
+_La primera configuración se nos va a pedir el proceso de instalación es la del idioma del teclado:_
+
+<p align="center">
+<img width="522" alt="i2" src="https://user-images.githubusercontent.com/60987042/103821202-b848bf80-503b-11eb-88ac-cc0dcfc8da99.PNG">
+</p>
+
+### Paso 4
+
+_Despues del idioma del teclado, es necesario configurar la distribución del almacenamineto disponible y debe quedar asi:_
+
+<p align="center">
+<img width="523" alt="i3" src="https://user-images.githubusercontent.com/60987042/103821384-0eb5fe00-503c-11eb-9e9a-f4de5a77b05a.PNG">
+</p>
+
+### Paso 5
+
+_Ahora, es necesario crear una contraseña para poder acceder al panel de administración y a la CLI de CloudGuard:_
+
+<p align="center">
+<img width="521" alt="i4" src="https://user-images.githubusercontent.com/60987042/103821532-59377a80-503c-11eb-95e1-80afd7a2e0c2.PNG">
+</p>
+
+### Paso 6
+
+_Por ultimo, es necesario configurar una IP mediante la cual vamos a acceder al panel de administración del CloudGuard:_
+
+_**Nota: La dirección IP que debemos colocar debe estar en la misma subnet publica o privada del Gateway Aplaince**_
+
+<p align="center">
+<img width="520" alt="i5" src="https://user-images.githubusercontent.com/60987042/103821739-d2cf6880-503c-11eb-808c-1790a53ecb9b.PNG">
+</p>
+
+### Paso 7
+
+_Para completar la instalación de Cloud Guard, va a salir un mensaje final en el cual se pregunta si se quiere continuar el proceso de instalación y se debe selecionar la opcion **OK**_
+
+_**Nota: La dirección IP que debemos colocar debe estar en la misma subnet publica o privada del Gateway Aplaince**_
+
+<p align="center">
+<img width="520" alt="i6" src="https://user-images.githubusercontent.com/60987042/103821939-30fc4b80-503d-11eb-9257-6c0be41b0429.PNG">
+</p>
+
 ## Referencias
 
 
