@@ -136,7 +136,7 @@ _• Cuando se selecciona el .iso debemos dar click en Plug in para subirla la i
 **NOTA: Finalmente se accede al boot de la máquina donde selecciona el .iso de arranque para la máquina**
 
 
-## Instalación de CloudGuard dentro del VMWare ESXi: 🚀
+## Crear maquina virtual con CloudGuard dentro del VMWare ESXi: 🚀
 
 ### Paso 1
 _Descargar el .iso de CloudGuard desde el siguiente link:_
@@ -202,6 +202,26 @@ _**5. Ready to Complete**, es el paso final para la creación de la maquina virt
 <p align="center">
 <img width="524" alt="p5" src="https://user-images.githubusercontent.com/60987042/103818569-ca742f00-5036-11eb-9ad3-5608345e1e4b.PNG">
 </p>
+
+### Paso 5
+
+_Dado por terminado el paso # 4, se debe dirigir a la sección de maquinas virtuales y dar clic sobre la que lleva el nombre de **CloudGuard**:_
+
+<p align="center">
+<img width="521" alt="im" src="https://user-images.githubusercontent.com/60987042/103818875-50907580-5037-11eb-8597-1b8f2ebfed1c.PNG">
+</p>
+
+## Instalación de CloudGuard dentro del VMWare ESXi: 🚀
+
+### Paso 1
+
+_Al acceder a la maquina virtual, debe aparecer el menu de instalación de CloudGuard, en el cual debemos seleccionar la primera opción:_
+
+<p align="center">
+<img width="522" alt="mi" src="https://user-images.githubusercontent.com/60987042/103819198-f512b780-5037-11eb-98e1-2a54370670e9.PNG">
+</p>
+
+### Paso 2
 
 ## Referencias
 
