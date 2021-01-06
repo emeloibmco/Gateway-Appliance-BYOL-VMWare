@@ -267,11 +267,25 @@ _**Nota: La dirección IP que debemos colocar debe estar en la misma subnet publ
 
 _Para completar la instalación de Cloud Guard, va a salir un mensaje final en el cual se pregunta si se quiere continuar el proceso de instalación y se debe selecionar la opcion **OK**_
 
-_**Nota: La dirección IP que debemos colocar debe estar en la misma subnet publica o privada del Gateway Aplaince**_
 
 <p align="center">
 <img width="520" alt="i6" src="https://user-images.githubusercontent.com/60987042/103821939-30fc4b80-503d-11eb-9257-6c0be41b0429.PNG">
 </p>
+
+### Paso 7
+
+_Como paso final, nos va a salir la IP en la que quedo configurado el panel de administración y un menu que nos pide reiniciar la maquinapara de esta manera concluir la instalación:_
+
+<p align="center">
+<img width="521" alt="i7" src="https://user-images.githubusercontent.com/60987042/103822303-dfa08c00-503d-11eb-82cf-43ab98714ed0.PNG">
+</p>
+
+
+## Configuración de CloudGuard: 🚀
+
+### Paso 1
+
+__
 
 ## Referencias
 
